@@ -37,6 +37,7 @@ class NoteDetailState extends State<NoteDetail>{
     return WillPopScope(
       onWillPop: (){
         moveToLastScreen();
+
       },
       child: Scaffold(
         backgroundColor: Colors.orange[100],
